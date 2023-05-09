@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calcistyle">
+        <form action="" name="cal">
+            <input class="calbutton"  type="text" name="uinput"><br>
+            <input class="calbutton"  type="button" value="1" onclick="document.cal.uinput.value+='1'">
+            <input class="calbutton"  type="button" value="2" onclick="document.cal.uinput.value+='2'">
+            <input class="calbutton"  type="button" value="3" onclick="document.cal.uinput.value+='3'">
+            <input class="calbutton"  type="button" value="+" onclick="document.cal.uinput.value+='+'"><br>
+            <input class="calbutton"  type="button" value="4" onclick="document.cal.uinput.value+='4'">
+            <input class="calbutton"  type="button" value="5" onclick="document.cal.uinput.value+='5'">
+            <input class="calbutton"  type="button" value="6" onclick="document.cal.uinput.value+='6'">
+            <input class="calbutton"  type="button" value="-" onclick="document.cal.uinput.value+='-'"><br>
+            <input class="calbutton"  type="button" value="7" onclick="document.cal.uinput.value+='7'">
+            <input class="calbutton"  type="button" value="8" onclick="document.cal.uinput.value+='8'">
+            <input class="calbutton"  type="button" value="9" onclick="document.cal.uinput.value+='9'">
+            <input class="calbutton"  type="button" value="*" onclick="document.cal.uinput.value+='*'" ><br>
+            <input class="calbutton"  type="button" value="0" onclick="document.cal.uinput.value+='0'">
+            <input class="calbutton" type="button" value="/" onclick="document.cal.uinput.value+='/'">
+            <input class="calbutton"  type="button" value="Result" onclick="document.cal.uinput.value=eval(document.cal.uinput.value)">
+            <input class="calbutton"  type="button" value="CLR" onclick="document.cal.uinput.value=''">
+        </form>
+
+    </div>
+</body>
+</html>
